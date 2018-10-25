@@ -13,7 +13,7 @@ ol, ul {
 }
 
 h1 {
-  color: red;
+  color: green;
 }
 
 ul {
@@ -21,15 +21,30 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 150px;
-
 }
 
 li > a > img {
   width: 30px;
-
-
 }
+
 header {
   display: flex;
   justify-content: space-between;
   margin: 50px;
+}
+
+section#left {
+  width: 50vw;
+  background-color: hsl(243, 87%, 12%);
+}
+
+
+
+section#right {
+  width: 50vw;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+}
