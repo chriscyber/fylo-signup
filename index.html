@@ -20,62 +20,63 @@
 
 
     <body>
+      <header>
+        <a href="/">
+          <img src="assets/images/logo.svg">
+        </a>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="assets/icons/twitter.svg">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/icons/facebook.svg">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/icons/mail.svg">
+            </a>
+          </li>
+        </ul>
+      </header>
+      <div id="split">
       <section id="left">
       <!-- reserved for images side -->
         <img src="assets/images/illustration-main.svg">
       </section>
 
       <section id="right">
-        <header>
-          <a href="/">
-            <img src="assets/images/logo.svg">
-          </a>
-          <ul>
-            <li>
-              <a href="#">
-                <img src="assets/icons/twitter.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/icons/facebook.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/icons/mail.svg">
-              </a>
-            </li>
-          </ul>
-        </header>
+        <main>
 
+          <h1>All your files in one secure location, accessible anywhere.</h1>
 
+          <p>
+            Fylo stores all your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family and co-workers.</p>
 
-        <h1>All your files in one secure location, accessible anywhere.</h1>
-
-        <p>
-          Fylo stores all your most important files in one secure location.
-          Access them wherever you need, share and collaborate with friends,
-          family and co-workers.</p>
-
-        <form>
-          <fieldset>
+          <form>
+            <fieldset>
             <legend>Sign up for early access</legend>
+            <label class="hidden" for="email">Enter your email address</label>
+            <input type="email" id="email">
             <button type="submit">Sign Up</button>
-          <label>
-            Enter your email address
-          </label>
-          </fieldset>
-        </form>
-          Privacy Policy
+            </fieldset>
+          </form>
+
+            Privacy Policy
+
+        </main>
+        
       </section>
-
-      <footer>
-        <p class="attribution">
-          This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉,a href=""
-        </p>
-      </footer>
-
+    </div>
     </body>
+
+
+
+
 
 </html>
