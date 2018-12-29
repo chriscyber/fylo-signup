@@ -108,7 +108,7 @@ input {
   border-radius: 3px;
 }
 
-aside {
-
-
+footer p a {
+  position absolute;
+  right: 118px;
 }
